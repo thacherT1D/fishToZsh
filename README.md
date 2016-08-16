@@ -44,14 +44,8 @@ Do you hate this? Missing fish already? Easy enough...
 will set fish as your default shell again.
 
 **References for this document**
+
 A great article explaining Oh-My-ZSH and Z:
 [Become A Command-Line Power User With Oh-My-ZSH And Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/)
-[Cobalt2-iterm gitHub page](https://github.com/wesbos/Cobalt2-iterm)
 
-**Other Useful Tools**
-* Password Manager: [Last Pass](https://lastpass.com) or [One Password](https://1password.com/)
-* Organizes windows on your screen: [Spectacle](https://www.spectacleapp.com/)
-* Keeps a history of what you copy [Jump Cut](http://jumpcut.sourceforge.net/)
-* Color Picker: [sip](http://sipapp.io/) (color)
-* For Notes: [One Note](https://www.onenote.com/) or [Evernote](https://evernote.com/)
-* Automatically dim your screen for working at night: [Flux](https://justgetflux.com/) — night time your screen
+[Cobalt2-iterm gitHub page](https://github.com/wesbos/Cobalt2-iterm)
