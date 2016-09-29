@@ -43,6 +43,9 @@ Do you hate this? Missing fish already? Easy enough...
 `chsh -s /usr/local/bin/fish`
 will set fish as your default shell again.
 
+If you decide you want to go back to zsh again the change can be just as easy (now that you've set it up)
+`chsh -s $(which zsh)`
+
 **References for this document**
 
 A great article explaining Oh-My-ZSH and Z:
