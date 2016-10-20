@@ -32,6 +32,9 @@ cobalt2 and other themes require Powerline fonts
 * go into your iTerm settings > profiles tab > text tab, check the the under **Font** and **Non-ASCII Font** choose Roboto Mono for Powerline for both
 * still in iTerm settings > profiles tab > colors tab, on the bottom right of the window, click on the "Color Presets" drop down and select "Import..." navigate to the "Cobalt2-iterm-master" folder you downloaded and select the "cobalt2.itermcolors" file
 * restart iTerm
+* to check that powerline fonts have been installed correctly copy the following command to your terminal: echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699". The result should look like this:
+
+![Character Example](https://gist.githubusercontent.com/agnoster/3712874/raw/characters.png)
 
 **More about Z**
 Z is one of the more useful plugins. Z builds a list of your most frequent and recent — “Frecent” — folders and allows you to jump to them quickly in one command.
@@ -49,3 +52,5 @@ A great article explaining Oh-My-ZSH and Z:
 [Become A Command-Line Power User With Oh-My-ZSH And Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/)
 
 [Cobalt2-iterm gitHub page](https://github.com/wesbos/Cobalt2-iterm)
+
+[agnoster.zsh-theme / help to confirm powerline fonts installation ](https://gist.github.com/agnoster/3712874)
