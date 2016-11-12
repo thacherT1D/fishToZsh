@@ -1,4 +1,4 @@
-###Transitioning your terminal to zsh
+##Transitioning your terminal to zsh
 
 ###Fish is great, but also some people like other options
 
