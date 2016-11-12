@@ -3,13 +3,16 @@
 ###Fish is great, but also some people like other options
 
 Install [iTerm2](https://www.iterm2.com/) -- accept and install any available updates
+
 ***FROM THIS POINT ONWARDS ANY REFENCE TO TERMINAL SHOULD BE DONE IN iTERM***
 
 Make the switch from fish to zsh: 
 `chsh -s $(which zsh)`
 
-Install Oh-My-ZSH by running this command and then restart the terminal (Quit the program and re-open it):
+Install Oh-My-ZSH by running this command and then restart the terminal:
 `curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh`
+
+note: restarting iTerm means quitting the application, not just closing the current window.
 
 **Here you're going to add the cobalt2 theme**
 * Download the cobalt theme file from [here](https://github.com/wesbos/Cobalt2-iterm)
