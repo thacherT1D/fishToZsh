@@ -3,7 +3,12 @@
 ###Fish is great, but also some people like other options
 
 Install [iTerm2](https://www.iterm2.com/) -- accept and install any available updates
-Install Oh-My-ZSH by running this command and then restart the terminal:
+***FROM THIS POINT ONWARDS ANY REFENCE TO TERMINAL SHOULD BE DONE IN iTERM***
+
+Make the switch from fish to zsh: 
+`chsh -s $(which zsh)`
+
+Install Oh-My-ZSH by running this command and then restart the terminal (Quit the program and re-open it):
 `curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh`
 
 **Here you're going to add the cobalt2 theme**
@@ -16,21 +21,21 @@ Install Oh-My-ZSH by running this command and then restart the terminal:
 
 In your .zshrc file set the theme ex.
 `ZSH_THEME=cobalt2`
-You can find more themes on the [wiki]().
+You can find more themes on the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
 
 **Getting the most out of ZSH is all about the packages:**
 * Still in your `./zshrc` file, scroll down to find the plugins section
 * To add useful plugins to your ZSH, edit the plugin text to match the line below:
 `plugins=(git node npm bower brew osx z)`
-Many more plugins are available, you can find the full list on the [wiki]().
+Many more plugins are available, you can find the full list on the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins).
 
 **Fonts and Colors:**
 cobalt2 and other themes require Powerline fonts
 * Download the fonts as a zip file from github [here](https://github.com/powerline/fonts)
 * Unzip the file
 * cd into where the unzipped file is, then run `./install.sh` to install the powerline fonts
-* go into your iTerm settings > profiles tab > text tab, check the the under **Font** and **Non-ASCII Font** choose Roboto Mono for Powerline for both
-* still in iTerm settings > profiles tab > colors tab, on the bottom right of the window, click on the "Color Presets" drop down and select "Import..." navigate to the "Cobalt2-iterm-master" folder you downloaded and select the "cobalt2.itermcolors" file
+* go into your iTerm preferences > profiles tab > text tab, check the the under **Font** and **Non-ASCII Font** choose Roboto Mono for Powerline for both
+* still in iTerm prefences > profiles tab > colors tab, on the bottom right of the window, click on the "Color Presets" drop down and select "Import..." navigate to the "Cobalt2-iterm-master" folder you downloaded and select the "cobalt2.itermcolors" file
 * restart iTerm
 * to check that powerline fonts have been installed correctly copy the following command to your terminal: echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699". The result should look like this:
 
