@@ -1,6 +1,6 @@
-##Transitioning your terminal to zsh
+## Transitioning your terminal to zsh
 
-###Fish is great, but also some people like other options
+### Fish is great, but also some people like other options
 
 Install [iTerm2](https://www.iterm2.com/) -- accept and install any available updates
 
