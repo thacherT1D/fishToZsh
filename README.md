@@ -20,7 +20,7 @@ note: restarting iTerm means quitting the application, not just closing the curr
 * Open the zip file in finder and then from the "Cobalt2-iterm-master" directory drag/add the "cobalt2.zsh-theme" file into the themes directory
 
 * Go to your home directory `ls -a` to see all files including hidden files, you will see the .zshrc file that we want to modify
-`open ~/.zshrc` to open it in atom/your text editor
+`open ~/.zshrc` to open it in your text editor
 
 In your .zshrc file set the theme ex.
 `ZSH_THEME=cobalt2`
@@ -29,7 +29,7 @@ You can find more themes on the [wiki](https://github.com/robbyrussell/oh-my-zsh
 **Getting the most out of ZSH is all about the packages:**
 * Still in your `./zshrc` file, scroll down to find the plugins section
 * To add useful plugins to your ZSH, edit the plugin text to match the line below:
-`plugins=(git node npm bower brew osx z)`
+`plugins=(git node npm osx z)`
 Many more plugins are available, you can find the full list on the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins).
 
 **Fonts and Colors:**
